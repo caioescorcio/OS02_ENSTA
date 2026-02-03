@@ -202,3 +202,6 @@ Conclusion : Vous avez battu la version "basique" de BLAS grâce à une meilleur
 ```
     $ for i in $(seq 1 4); do elap=$(OMP_NUM_THREADS=$i ./TestProductOmp.exe|grep "Temps CPU"|cut -d " " -f 7); echo -e "$i\t$elap"; done > timers.out
 ```
+
+
+## Pour la 2e question les codes sont dans "travaux_diriges/tp1/q2"
